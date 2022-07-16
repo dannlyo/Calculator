@@ -19,7 +19,6 @@ body {
 .calculator {
   width: 450px;
   padding: 20px;
-  border: 1px solid #ccc;
 }
 .calculator .theme {
   display: flex;
@@ -69,8 +68,8 @@ body {
   color: #fff;
 }
 .calculator .allkeys {
-  border: 1px solid #ccc;
-  background: hsl(223deg, 31%, 20%);
+  border-radius: 7px;
+  background: #232c43;
   padding: 20px;
 }
 .calculator .allkeys button {
@@ -80,7 +79,7 @@ body {
   cursor: pointer;
   font-size: 1.5rem;
   font-weight: 800;
-  box-shadow: 0 3px #ccc;
+  box-shadow: 0 3px rgb(168, 168, 168);
 }
 .calculator .allkeys .keys {
   width: 100%;
@@ -89,6 +88,11 @@ body {
   grid-template-columns: 22.2222222222% 22.2222222222% 22.2222222222% 22.2222222222%;
   gap: 10px;
   margin-bottom: 20px;
+}
+.calculator .allkeys .keys #del {
+  background: #f13e2a;
+  box-shadow: 0 4px #aa2c1e;
+  color: #fff;
 }
 .calculator .allkeys .execute-keys {
   width: 100%;
@@ -99,11 +103,11 @@ body {
 }
 .calculator .allkeys .execute-keys #reset {
   background: #f13e2a;
-  box-shadow: 0 3px #ccc;
+  box-shadow: 0 4px #aa2c1e;
   color: #fff;
 }
 .calculator .allkeys .execute-keys #equal {
   background: yellowgreen;
-  box-shadow: 0 3px #ccc;
+  box-shadow: 0 4px rgb(104, 139, 34);
   color: #fff;
 }/*# sourceMappingURL=style.css.map */

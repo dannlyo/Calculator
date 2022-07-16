@@ -17,7 +17,6 @@ body{
 .calculator{
     width: 450px;
     padding: 20px;
-    border: 1px solid #ccc;
     .theme{
         display: flex;
         justify-content: space-between;
@@ -66,8 +65,8 @@ body{
         }
     }
     .allkeys{
-        border: 1px solid #ccc;
-        background: hsl(223, 31%, 20%);
+        border-radius: 7px;
+        background: #232c43;
         padding: 20px;
         button{
             height: 45px;
@@ -76,7 +75,7 @@ body{
             cursor: pointer;
             font-size: 1.5rem;
             font-weight: 800;
-            box-shadow: 0 3px #ccc;
+            box-shadow: 0 3px rgb(168, 168, 168);
         }
         .keys{
             width: 100%;
@@ -85,6 +84,11 @@ body{
             grid-template-columns: calc(100%/4.5) calc(100%/4.5) calc(100%/4.5) calc(100%/4.5);
             gap: 10px;
             margin-bottom: 20px;
+            #del{
+                background: #f13e2a;
+                box-shadow: 0 4px #aa2c1e;
+                color: #fff;
+            }
         }
         .execute-keys{
             width: 100%;
@@ -94,12 +98,12 @@ body{
             justify-content: space-between;
             #reset{
                 background: #f13e2a;
-                box-shadow: 0 3px #ccc;
+                box-shadow: 0 4px #aa2c1e;
                 color: #fff;
             }
             #equal{
                 background: yellowgreen;
-                box-shadow: 0 3px #ccc;
+                box-shadow: 0 4px rgb(104, 139, 34);
                 color: #fff;
             }
         }
