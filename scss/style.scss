@@ -10,9 +10,42 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: hsl(222, 26%, 31%);
 }
-.calclator{
-    width: 400px;
-    height: 700px;
+.calculator{
+    width: 450px;
+    padding: 20px;
     border: 1px solid #ccc;
+    .theme{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3{
+            color: #fff;
+        }
+        .themes{
+            width: 70px;
+            height: 20px;
+            padding: 2px 7px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: hsl(224, 36%, 15%);
+            .them{
+                width: 15px;
+                height: 15px;
+                border-radius: 100%;
+            }
+            .themeone{
+                background: salmon;
+            }
+            .themetwo{
+                background: khaki;
+            }
+            .themethree{
+                background: #fff;
+            }
+        }
+    }
 }
