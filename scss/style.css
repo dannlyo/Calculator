@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calclator {
+  width: 400px;
+  height: 700px;
+  border: 1px solid #ccc;
+}/*# sourceMappingURL=style.css.map */
